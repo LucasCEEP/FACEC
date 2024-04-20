@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário simples</title>
+</head>
+<body>
+    <h2>Formulario</h2>
+    <form>
+        <label for="nome">NOME</label>
+        <input type="text" name="nome" placeholder="Digite seu nome aqui" required autofocus>
+        <br> 
+
+        <label for="EMAIL">EMAIL</label>
+        <input type="EMAIL" name="EMAIL" placeholder="Digite seu melhor email" required autofocus>
+        <br>
+
+        <label for="senha">SENHA</label>
+        <input type="password" name="senha" placeholder="informe a sua senha" required autofocus>
+        <br><br>
+
+        <labrl for="informaçoes">INFORMAÇOES</labrl>
+        <br>
+        <textarea name="informaçoes" cols="30" rows="10"></textarea>
+        <br><br>
+
+        <label for="sexo">SEXO</label>
+        <br>
+        <input type="radio" name="sexo" value="masculino">
+        <label>masculino</label>
+        <input type="radio" name="sexo" value="feminino">
+        <label>feminino</label>
+        <br><br>
+        <input type="checkbox" name="termos1">  
+        <label for="termos1">Aceito receber emails</label>
+        <br>
+        <input type="checkbox" name="temos2">
+        <label for="termos2"> aceito receber ligaçôes</label>
+        <br><br>
+
+        <label for="scroll">Quão satisfeito você está hoje?</label>
+        <br>
+        <input type="range" name="scroll">
+        <br><br>
+
+        <label for="data">DATA DE NASCIMENTO</label>
+        <br>
+        <input type="date" name="data">
+        <br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
